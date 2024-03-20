@@ -1,0 +1,1961 @@
+SIR M VISVESVARAYA INSTITUTE OF TECHNOLOGY
+(Affiliated to VTU, Recognized by AICTE and Accredited by NBA, NAAC
+and an ISO 9001-2008 Certified Institution)
+Bengaluru – 562157
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+DATA STRUCTURES LABORATORY
+CHOICE BASEDCREDITSYSTEM
+BCSL305 - III Semester B.E
+(Academic Year 2023-24)
+Compiled and Prepared by:
+Mrs. Dr. Savita Choudhary
+Associate Professor
+Dept. of CSE
+Under the Guidance of:
+Dr. Anitha T N
+Professor & Head
+Dept. of CSE
+Department Vision and Mission
+VISION
+To build a center for imparting quality technical education and carrying out research activity
+to meet the current and future challenges in the domain of Computer Science and Engineering.
+MISSION
+ The Computer Science and Engineering department strives for excellence in teaching,
+applying, promoting and imparting knowledge through comprehensive academic curricula.
+ Train students to effectively apply the knowledge to solve real-world problems, thus enhance
+their potential for life-long high-quality career and give them a competitive advantage in the
+ever-changing and fast paced computing.
+ Prepare students to demonstrate a sense of societal and ethical responsibilities in their
+professional endeavors.
+ Creating amongst students and faculty a collaborative environment open to the free exchange of
+ideas, which leads to research activity and fuels innovation thinking.
+PROGRAM OUTCOMES
+PO's PO Description
+PO1
+Engineering knowledge: Apply the knowledge of mathematics, science, engineering
+fundamentals, and an engineering specialization to the solution of complex
+engineering problems.
+PO2
+Problem analysis: Identify, formulate, review research literature, and analyze
+complex engineering problems reaching substantiated conclusions using first
+principles of mathematics, natural sciences, and engineering sciences.
+PO3
+Design/development of solutions: Design solutions for complex engineering
+problems and design system components or processes that meet the specified needs
+with appropriate consideration for the public health and safety, and the cultural,
+societal, and environmental considerations.
+PO4
+Conduct investigations of complex problems: Use research-based knowledge and
+research methods including design of experiments, analysis and interpretation of
+data, and synthesis of the information to provide valid conclusions.
+PO5
+Modern tool usage: Create, select, and apply appropriate techniques, resources, and
+modern engineering and IT tools including prediction and modeling to complex
+engineering activities with an understanding of the limitations.
+PO6
+The engineer and society: Apply reasoning informed by the contextual knowledge
+to assess societal, health, safety, legal and cultural issues and the consequent
+responsibilities relevant to the professional engineering practice.
+PO7
+Environment and sustainability: Understand the impact of the professional
+engineering solutions in societal and environmental contexts, and demonstrate the
+knowledge of, and need for sustainable development.
+PO8 Ethics: Apply ethical principles and commit to professional ethics and
+responsibilities and norms of the engineering practice.
+PO9 Individual and team work: Function effectively as an individual, and as a member
+or leader in diverse teams, and in multidisciplinary settings.
+PO10
+Communication: Communicate effectively on complex engineering activities with
+the engineering community and with society at large, such as, being able to
+comprehend and write effective reports and design documentation, make effective
+presentations, and give and receive clear instructions.
+PO11
+Project management and finance: Demonstrate knowledge and understanding of
+the engineering and management principles and apply these to one’s own work, as a
+member and leader in a team, to manage projects and in multidisciplinary
+environments.
+PO12
+Life-long learning: Recognize the need for, and have the preparation and ability to
+engage in independent and life-long learning in the broadest context of technological
+change.
+PROGRAM SPECIFIC OUTCOMES
+PSO's PSO Description
+PSO1
+An ability to design and analyze algorithms by applying theoretical concepts to build complex
+and computer- based systems in the domain of System Software, Computer Networks &
+Security, Web technologies, Data Science and Analytics.
+PSO2
+Be able to develop various software solutions by applying the techniques of Data Base
+Management, Complex Mathematical Models, Software Engineering practices and Machine
+Learning with Artificial Intelligence.
+DATA STRUCTURES LABORATORY
+SEMESTER – III
+Course Code BCSL305 CIE Marks 50
+Number of Contact Hours/Week 0:0:2 SEE Marks 50
+Total Number of Lab Contact Hours 28 Exam Hours 03
+Credits – 1
+Course Learning Objectives:
+This laboratory course enables students to get practical experience in design, develop, implement, analyze and
+evaluation/testing of
+● Dynamic memory management
+● Linear data structures and their applications such as stacks, queues and lists
+● Non-Linear data structures and their applications such as trees and graphs
+Descriptions (if any):
+● Implement all the programs in “C ” Programming Language and Linux OS.
+Programs List:
+1. Develop a Program in C for the following:
+a) Declare a calendar as an array of 7 elements (A dynamically Created array) to represent 7 days of a
+week. Each Element of the array is a structure having three fields. The first field is the name of the
+Day (A dynamically allocated String), The second field is the date of the Day (A integer), the third
+field is the description of the activity for a particular day (A dynamically allocated String).
+b) Write functions create(), read() and display(); to create the calendar, to read the data from the keyboard
+and to print weeks activity details report on screen.
+2. Develop a Program in C for the following operations on Strings.
+a. Read a main String (STR), a Pattern String (PAT) and a Replace String (REP)
+b. Perform Pattern Matching Operation: Find and Replace all occurrences of PAT in STR with REP if
+PAT exists in STR. Report suitable messages in case PAT does not exist in STR
+Support the program with functions for each of the above operations. Don't use Built-in functions.
+3. Develop a menu driven Program in C for the following operations on STACK of Integers (Array
+Implementation of Stack with maximum size MAX)
+a. Push an Element on to Stack
+b. Pop an Element from Stack
+c. Demonstrate how Stack can be used to check Palindrome
+d. Demonstrate Overflow and Underflow situations on Stack
+e. Display the status of Stack
+f. Exit
+Support the program with appropriate functions for each of the above operations
+4.
+Develop a Program in C for converting an Infix Expression to Postfix Expression. Program should support
+for both parenthesized and free parenthesized expressions with the operators: +, -, *, /, % (Remainder), ^
+(Power) and alphanumeric operands.
+5.
+Develop a Program in C for the following Stack Applications
+a. Evaluation of Suffix expression with single digit operands and operators: +, -, *, /, %,
+^
+b. Solving Tower of Hanoi problem with n disks
+6.
+Develop a menu driven Program in C for the following operations on Circular QUEUE of Characters (Array
+Implementation of Queue with maximum size MAX)
+a. Insert an Element on to Circular QUEUE
+b. Delete an Element from Circular QUEUE
+c. Demonstrate Overflow and Underflow situations on Circular QUEUE
+d. Display the status of Circular QUEUE
+e. Exit
+Support the program with appropriate functions for each of the above operations
+7.
+Develop a menu driven Program in C for the following operations on Singly Linked List (SLL) of Student
+Data with the fields: USN, Name, Programme, Sem, PhNo
+a. Create a SLL of N Students Data by using front insertion.
+b. Display the status of SLL and count the number of nodes in it
+c. Perform Insertion / Deletion at End of SLL
+d. Perform Insertion / Deletion at Front of SLL(Demonstration of stack)
+e. Exit
+8.
+Develop a menu driven Program in C for the following operations on Doubly Linked List (DLL) of
+Employee Data with the fields: SSN, Name, Dept, Designation,Sal, PhNo
+a. Create a DLL of N Employees Data by using end insertion.
+b. Display the status of DLL and count the number of nodes in it
+c. Perform Insertion and Deletion at End of DLL
+d. Perform Insertion and Deletion at Front of DLL
+e. Demonstrate how this DLL can be used as Double Ended Queue.
+f. Exit
+9.
+Develop a Program in C for the following operationson Singly Circular Linked List (SCLL) with header
+nodes
+a. Represent and Evaluate a Polynomial P(x,y,z) = 6x2y2z-4yz5+3x3yz+2xy5z-2xyz3
+b. Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the result in
+POLYSUM(x,y,z)
+Support the program with appropriate functions for each of the above operations
+10.
+Develop a menu driven Program in C for the following operations on Binary Search Tree (BST) of Integers
+.Create a BST of N Integers: 6, 9, 5, 2, 8, 15, 24, 14, 7, 8, 5, 2
+a. Traverse the BST in Inorder, Preorder and Post Order
+b. Search the BST for a given element (KEY) and report the appropriate message
+c. Exit
+11. Develop a Program in C for the following operations on Graph(G) of Cities
+a. Create a Graph of N cities using Adjacency Matrix.
+b. Print all the nodes reachable from a given starting node in a digraph using DFS/BFS method
+12. Given a File of N employee records with a set K of Keys (4-digit) which uniquely determine the records in
+file F. Assume that file F is maintained in memory by a Hash Table (HT) of m memory locations with L as
+the set of memory addresses (2-digit) of locations in HT. Let the keys in K and addresses in L are Integers.
+Develop a Program in C that uses Hash function H:
+K →L as H(K)=K mod m (remainder method), and implement hashing
+technique to map a given key K to the address space L. Resolve the collision (if any) using linear probing.
+Laboratory Outcomes: The student should be able to:
+● Analyze various linear and non-linear data structures
+● Demonstrate the working nature of different types of data structures and their applications
+● Use appropriate searching and sorting algorithms for the give scenario.
+● Apply the appropriate data structure for solving real world problems
+Conduct of Practical Examination:
+● Experiment distribution
+o For laboratories having only one part: Students are allowed to pick one experiment from
+the lot with equal opportunity.
+o For laboratories having PART A and PART B: Students are allowed to pick one
+experiment from PART A and one experiment from PART B, with equal opportunity.
+● Change of experiment is allowed only once and marks allotted for procedure to be made zero of
+the changed part only.
+● Marks Distribution (Need to change in accordance with university regulations)
+c) For laboratories having only one part – Procedure + Execution + Viva-Voce: 15+70+15 =
+100 Marks
+d) For laboratories having PART A and PART B
+i. Part A – Procedure + Execution + Viva = 6 + 28 + 6 = 40 Marks
+ii. Part B – Procedure + Execution + Viva = 9 + 42 + 9 = 60 Marks
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 1
+1. Develop a Program in C for the following:
+a) Declare a calendar as an array of 7 elements (A dynamically Created array) to represent 7
+days of a week. Each Element of the array is a structure having three fields. The first field is
+the name of the Day (A dynamically allocated String), The second field is the date of the Day
+(A integer), the third field is the description of the activity for a particular day (A
+dynamically allocated String).
+b) Write functions create(), read() and display(); to create the calendar, to read the data from
+the keyboard and to print weeks activity details report on screen.
+#include <stdio.h>
+#define MAX_DESCRIPTION_LENGTH 100
+#define MAX_DAY_NAME_LENGTH 20
+struct Day {
+ char dayName[MAX_DAY_NAME_LENGTH];
+ int date;
+ char activityDescription[MAX_DESCRIPTION_LENGTH];
+};
+struct Day weekCalendar[7];
+void read() {
+ for (int i = 0; i < 7; ++i) {
+ printf("Enter day name for day %d: ", i + 1);
+ scanf("%s", weekCalendar[i].dayName);
+ printf("Enter date for day %d: ", i + 1);
+ scanf("%d", &weekCalendar[i].date);
+ printf("Enter activity description for day %d: ", i + 1);
+ scanf(" %[^\n]s", weekCalendar[i].activityDescription);
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 2
+ }
+}
+void display() {
+ printf("\n--- Calendar ---\n");
+ for (int i = 0; i < 7; ++i) {
+ printf("Day %d: %s, Date: %d, Activity: %s\n", i + 1, weekCalendar[i].dayName,
+weekCalendar[i].date, weekCalendar[i].activityDescription);
+ }
+}
+int main() {
+ printf("Enter details for each day of the week:\n");
+ read();
+ display();
+ return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 3
+2. Develop a Program in C for the following operations on Strings.
+a. Read a main String (STR), a Pattern String (PAT) and a Replace String (REP)
+b. Perform Pattern Matching Operation: Find and Replace all occurrences of PAT in STR
+with REP if PAT exists in STR. Report suitable messages in case PAT does not exist in
+STR
+Support the program with functions for each of the above operations. Don't use Built-in functions.
+
+#include<stdio.h>
+#include<conio.h>
+void read(char *s)
+{
+ gets(s);
+}
+void strcopy(char *s1,char *s2)
+{
+ int i;
+ for(i=0;s2[i]!='\0';i++)
+s1[i]=s2[i];
+s1[i]='\0';
+}
+int matchnreplace(char *str,char *pat,char *rep)
+{
+ char ans[100];
+ int i=0,m=0,c=0,j=0,flag=0,k;
+ while(str[c]!='\0')
+ {
+ if (str[m]==pat[i])
+ {
+ i++;
+ m++;
+ if(pat[i]=='\0')
+ {
+ flag=1;
+ for(k=0;rep[k]!='\0';k++,j++)
+ ans[j]=rep[k];
+ i=0;
+ c=m;
+ }
+}
+ else
+{
+ ans[j]=str[c];
+ j++;c++;m=c;i=0;
+ }
+}
+ans[j]='\0';
+strcopy(str,ans);
+return flag;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 4
+int main()
+ {
+ char str[100],pat[20],rep[20];
+ int flag=0;
+ clrscr();
+ printf("Enter the string");
+ read(str);
+ printf("Enter the pattern");
+ read(pat);
+ printf("Enter the string to be replaced");
+ read(rep);
+ flag=matchnreplace(str,pat,rep);
+ if(flag==1)
+ printf("The string is found %s",str);
+ else
+ printf("The pattern is not found");
+ return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 5
+3. Develop a menu driven Program in C for the following operations on STACK of Integers
+(Array Implementation of Stack with maximum size MAX)
+a. Push an Element on to Stack
+b. Pop an Element from Stack
+c. Demonstrate how Stack can be used to check Palindrome
+d. Demonstrate Overflow and Underflow situations on Stack
+e. Display the status of Stack
+f. Exit
+Support the program with appropriate functions for each of the above operations.
+#include<stdio.h>
+#define MAX 10
+int top=-1;
+int overflow()
+{
+ if (top==MAX-1)
+ return 1;
+ else return 0;
+}
+int underflow()
+{
+ if (top==-1)
+ return 1;
+ else return 0;
+}
+void push(int *s,int ele)
+{
+ if(!overflow())
+ s[++top]=ele;
+ else
+ printf("stack overflow\n");
+}
+int pop(int *s)
+{
+ if(!underflow())
+ return(s[top--]);
+ else
+ printf("stack underflow\n");
+ return(0);
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 6
+void display(int *s)
+{
+ int i;
+ if(underflow())
+ {
+ printf("stack underflow\n");
+ return;
+ }
+ printf("The stack contents are:\n");
+ for(i=0;i<=top;i++)
+ printf("%d\t",s[i]);
+}
+int palin(char *pal,int *s)
+{
+ int i;
+ top=-1;
+ for(i=0;pal[i]!='\0';i++)
+ push(s,pal[i]-'0');
+ for(i=0;pal[i]!='\0';i++)
+if (pal[i]!=(pop(s)+'0'))
+ return 0;
+ return 1;
+ }
+int main()
+{
+ int stack[MAX],ch,i,j,ele,p;
+ char str[10];
+ while(1)
+ {
+printf("\nEnter your choice:\n1:PUSH\n2:POP\n3:CHECK
+PALINDROME\n4:DISPALY\n5.EXIT\n");
+ scanf("%d",&ch);
+switch(ch)
+ {
+case 1: printf("\nEnter the element to be pushed: n");
+scanf("%d",&ele);
+push(stack,ele);
+break;
+case 2: ele=pop(stack);
+if(ele!=0)
+printf("\nThe deleted element is: %d\n",ele);
+break;
+case 3:printf("\nEnter the string ");
+ fflush(stdin);
+ gets(str);
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 7
+ p=palin(str,stack);
+ if(p)
+printf("\nThe given string is Palindrome");
+ else
+printf("\nThe given string is not a palindrome");
+ break;
+case 4:display(stack);
+break;
+ default:exit(0);
+ }
+ }
+ return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 8
+4. Develop a Program in C for converting an Infix Expression to Postfix Expression. Program
+should support for both parenthesized and free parenthesized expressions with the
+operators: +, -, *, /, % (Remainder), ^ (Power) and alphanumeric operands.
+#include<stdio.h>
+char stack[100];
+int top=-1;
+void push(char x)
+{
+stack[++top]=x;
+}
+char pop()
+{
+char ret;
+ret=stack[top];
+stack[top]='\0';
+top--;
+return ret;
+}
+int inper(char ch)
+{
+switch(ch)
+{
+case '+':
+case '-':
+return 1;
+case '*':
+case '/':
+return 3;
+}
+}
+int stper(char ch)
+{
+switch(ch)
+{
+case '+':
+case '-':
+return 2;
+case '*':
+case '/':
+return 4;
+case '(': return 0;
+case '#': return -1;
+}
+}
+void convert(char *exprn,char *postfix)
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 9
+{
+int n=0,i=0,j=0;
+char ch;
+ch=exprn[i++];
+while(ch!='#')
+{
+switch(ch)
+{
+case '(':
+push(ch);
+break;
+case ')': while(stack[top]!='(')
+postfix[j++]=pop();
+pop();
+break;
+case '+':
+case '-':
+case '*':
+case '/': while(stper(stack[top])>=inper(ch))
+postfix[j++]=pop();
+push(ch);
+break;
+default:
+postfix[j++]=ch;
+break;
+}
+printf("\nSTACK=%s POSTFIX = %s",stack,postfix);
+ch=exprn[i++];
+}
+while(stack[top]!='#')
+postfix[j++]=pop();
+postfix[j]='\0';
+}
+void main()
+{
+char exprn[20]="",postfix[20]="";
+int i;
+printf("\n Enter the postfix expn\t");
+scanf("%s",exprn);
+strcat(exprn,"#");
+push('#');
+convert(exprn,postfix);
+printf("\n After Evaluation %s",postfix);
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 10
+5. Develop a Program in C for the following Stack Applications
+a. Evaluation of Suffix expression with single digit operands and operators: +, -, *, /, %,^
+b. Solving Tower of Hanoi problem with n disks.
+5 a)
+#include<stdio.h>
+#include<ctype.h>
+#include<stdlib.h>
+#include<string.h>
+int stack[100];
+int top=-1;
+char exprn[20];
+void push(int ele)
+{
+stack[++top]=ele;
+}
+int pop()
+{
+return (stack[top--]);
+}
+void compute(int opr1,char ch,int opr2)
+{
+switch(ch)
+{
+case '+': push(opr1 + opr2); break;
+case '-' : push(opr1 - opr2); break;
+case '*' : push(opr1 * opr2); break;
+case '/' : if(opr2!=0)
+ push(opr1/opr2);
+ else
+ {
+ printf("\nDivide by Zero Error");
+ exit(0);
+ }
+ break;
+}
+}
+int eval()
+{
+int n=0,i=0,flag=1;
+char ch;
+int opr1,opr2;
+ch=exprn[i++];
+while(ch!='#')
+{
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 11
+printf("\n%c",ch);
+switch(ch)
+{
+case '+':
+case '-':
+case '*':
+case '/':
+opr2=pop();
+opr1=pop();
+printf("\n%d %d %c",opr1,opr2,ch);
+compute(opr1,ch,opr2);
+break;
+default:
+push(ch-'0');
+}
+ch = exprn[i++];
+}
+return pop();
+}
+void main()
+{
+printf("\n Enter the postfix expn\t");
+scanf("%s",exprn);
+strcat(exprn,"#");
+printf("\n After Evaluation %d",eval());
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 12
+5 b)
+#include<stdio.h>
+#define MAX 10
+typedef struct
+{
+int n;
+int from;
+int to;
+int auxi;
+int ret; // which case to return
+}stack;
+int top = -1;
+stack st[MAX];
+int empty()
+{
+return top==-1;
+}
+stack pop()
+{
+return st[top--];
+}
+void push(int n,int beg,int to,int aux,int ret)
+{
+top++;
+st[top].n = n;
+st[top].from = beg;
+st[top].to = to;
+st[top].auxi = aux;
+st[top].ret = ret;
+}
+void hanoi(int n,int beg,int aux, int end)
+{
+stack t;
+int nmoves=0;
+int ret=1,temp,i;
+while(1)
+{
+switch(ret)
+{
+case 1:if (n==1)
+{
+printf("\nMove %d: Move Disk %d from %c to
+%c",++nmoves,n,beg,end);
+ret=5;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 13
+}
+else
+ret=2;
+break;
+case 2: push(n,beg,end,aux,3);
+--n;
+temp=end;
+end=aux;
+aux=temp;
+ret=1;
+break;
+case 3: printf("\nMove %d: Move Disk %d from %c to %c",++nmoves,n,beg,end);
+case 4: push(n,beg,end,aux,5);
+--n;
+temp=beg;
+beg=aux;
+aux=temp;
+ret=1;
+break;
+case 5: if(empty())
+return;
+t=pop();
+n=t.n;
+beg=t.from;
+aux=t.auxi;
+end=t.to;
+ret=t.ret;
+break;
+}
+/*printf("\n Stack Content");
+for(i=top;i>=0;i--)
+printf("\n%d %d %d %d",st[i].n,st[i].from,st[i].to,st[i].auxi);*/
+}
+}
+int main()
+{
+int n;
+printf("\nEnter number of disks");
+scanf("%d",&n);
+hanoi(n,'A','C','B');
+return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 14
+6. Develop a menu driven Program in C for the following operations on Circular QUEUE of
+Characters (Array Implementation of Queue with maximum size MAX)
+a. Insert an Element on to Circular QUEUE
+b. Delete an Element from Circular QUEUE
+c. Demonstrate Overflow and Underflow situations on Circular QUEUE
+d. Display the status of Circular QUEUE
+e. Exit
+Support the program with appropriate functions for each of the above operations
+#include<stdio.h>
+#include<stdlib.h>
+#define MAX_SIZE 5
+int Queue[MAX_SIZE];
+int front = -1;
+int rear = -1;
+int count = 0;
+int Qfull()
+{
+return count == MAX_SIZE;
+}
+int Qempty()
+{
+return count == 0;
+}
+void insert(int ele)
+{
+rear=(rear+1) % MAX_SIZE;
+Queue[rear]=ele;
+count++;
+if(front == -1)
+front++;
+}
+int deleteq()
+{
+int ret;
+ret=Queue[front];
+front=(front+1) % MAX_SIZE;
+count--;
+return(ret);
+}
+void display()
+{
+int i,j;
+if(Qempty())
+printf("\n Queue is empty\n");
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 15
+else
+{
+j=front;
+printf("\n Elements in the Queue\n");
+for(i=0;i<count;i++)
+{
+printf(" %d(%d)",Queue[j],j);
+j=(j+1) % MAX_SIZE;
+}
+}
+}
+void main()
+{
+int n=4,i,ch,ele,flag=1;
+while(flag)
+{
+printf("\n Menu \n");
+printf("\n1 Insert\n2 Delete\n3 Display\n4 Exit\n Enter the Choice");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:
+if(Qfull()) {
+printf("\nQueue Full");
+}
+else
+{
+printf("\n Enter the value for insert\t");
+scanf("%d",&ele);
+insert(ele);
+}
+break;
+case 2: if (!Qempty())
+{
+ele = deleteq();
+printf("\n%d",ele);
+}
+else
+printf("\nQueue Empty");
+break;
+case 3: display();
+break;
+default: flag = 0;
+}
+}
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 16
+7. Develop a menu driven Program in C for the following operations on Singly Linked List (SLL)
+of Student Data with the fields: USN, Name, Programme, Sem, PhNo
+a. Create a SLL of N Students Data by using front insertion.
+b. Display the status of SLL and count the number of nodes in it
+c. Perform Insertion / Deletion at End of SLL
+d. Perform Insertion / Deletion at Front of SLL(Demonstration of stack)
+e. Exit
+#include<stdio.h>
+#include<stdlib.h>
+struct student
+{
+char USN[10];
+char Name[20];
+char Branch[15];
+char Sem[3];
+char PhNo[10];
+};
+typedef struct student STU;
+struct node
+{
+STU info;
+struct node *link;
+};
+typedef struct node* Node;
+STU GetData()
+{
+STU temp;
+printf("Enter the usn: ");
+fflush(stdin);
+gets(temp.USN);
+printf("\nEnter the Name:");
+fflush(stdin);
+gets(temp.Name);
+printf("\nEnter branch:");
+fflush(stdin);
+gets(temp.Branch);
+printf("\nEnter sem:");
+fflush(stdin);
+gets(temp.Sem);
+printf("\nEnter the phone number:");
+fflush(stdin);
+gets(temp.PhNo);
+return temp;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 17
+void displayRec(STU ele)
+{
+printf("\n%s\t\t",ele.USN);
+printf("%s\t\t",ele.Name);
+printf("%s\t",ele.Branch);
+printf("%s\t",ele.Sem);
+printf("%s\n",ele.PhNo);
+}
+Node Create(STU ele)
+{
+Node temp;
+temp=(Node)malloc(sizeof(struct node));
+temp->info=ele;
+temp->link=NULL;
+return temp;
+}
+Node Finsert(Node first,STU ele)
+{
+Node temp=Create(ele);
+if(first== NULL)
+first=temp;
+else
+{
+temp->link=first;
+first = temp;
+}
+return first;
+}
+Node Einsert(Node first,STU ele)
+{
+Node temp=Create(ele),cur;
+if(first== NULL)
+first=temp;
+else
+{
+//for(cur=first;cur->link!=NULL;cur=cur->link);
+cur=first;
+while(cur->link!=NULL)
+cur=cur->link;
+cur->link=temp;
+}
+return first;
+}
+DATA STRUCTURES LABORATORY BCS
+L305
+Department of Computer Science and Engineering, Sir MVIT Page | 18
+void display(Node first) {
+Node temp=first;
+if(temp == NULL)
+printf("
+\nList is empty
+\n");
+else {
+printf("
+\nStudent Details in the list
+\n");
+printf("USN
+\t
+\tName
+\t
+\tBranch
+\tSem
+\tPhno
+\n");
+while(temp!=NULL) {
+displayRec(temp
+->info);
+temp=temp
+->link;
+}
+}
+}
+int Count(Node first) {
+Node temp=first;
+int cnt=0;
+if(temp == NULL)
+printf("
+\nList is empty
+\n");
+else {
+while(temp!=NULL) {
+cnt++;
+temp=temp
+->link;
+}
+}
+return cnt;
+}
+Node Fdelete(Node first) {
+Node temp=first;
+if(first== NULL)
+printf("
+\nList is empty");
+else {
+temp=first;
+printf("
+\nElement Deleted is
+\n");
+printf("USN
+\t
+\tName
+\t
+\tBranch
+\tSem
+\tPhno
+\n");
+displayRec(temp
+->info);
+first = first
+->link;
+free(temp);
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 19
+return first;
+}
+Node Edelete(Node first)
+{
+Node temp=first,t;
+if(first== NULL)
+printf("\nList is empty");
+else if(first->link==NULL)
+{
+printf("\nElement Deleted is\n");
+printf("USN\t\tName\t\tBranch\tSem\tPhno\n");
+displayRec(first->info);
+first=NULL;
+}
+else
+{
+//for(temp=first;temp->link->link!=NULL;temp=temp->link);
+while(temp->link->link!=NULL)
+temp=temp->link;
+printf("\nElement Deleted is\n");
+printf("USN\t\tName\t\tBranch\tSem\tPhno\n");
+displayRec(temp->link->info);
+t = temp->link;
+temp->link=NULL;
+free(t);
+}
+return first;
+}
+void main()
+{
+Node first=NULL;
+int flag=1,ch;
+STU ele;
+while(flag)
+{
+printf("\n Menu \n");
+printf("\n1 Front Insert\n2 End Insert\n3 Front Delete\n4 End Delete\n5 Display\n6 No. of
+Nodes in the list\n");
+printf("7 Exit\n Enter the Choice");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1: printf("\n Enter the Student Details \t");
+ele=GetData();
+first=Finsert(first,ele);
+break;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 20
+case 2: printf("\n Enter the Student Details \t");
+ele=GetData();
+first=Einsert(first,ele);
+break;
+case 3: first=Fdelete(first);
+break;
+case 4: first=Edelete(first);
+break;
+case 5: display(first);
+break;
+case 6: printf("\n the Number of Node in list %d\t",Count(first));
+break;
+default: flag = 0;
+}
+}
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 21
+8. Develop a menu driven Program in C for the following operations on Doubly Linked List
+(DLL) of Employee Data with the fields: SSN, Name, Dept, Designation,Sal, PhNo
+a. Create a DLL of N Employees Data by using end insertion.
+b. Display the status of DLL and count the number of nodes in it
+c. Perform Insertion and Deletion at End of DLL
+d. Perform Insertion and Deletion at Front of DLL
+e. Demonstrate how this DLL can be used as Double Ended Queue.
+f. Exit
+#include<stdio.h>
+#include<stdlib.h>
+struct Employee
+{
+char SSN[10];
+char Name[10];
+char Branch[10];
+char Des[10];
+char sal[10];
+char phone[10];
+};
+typedef struct Employee EMP;
+struct node
+{
+EMP info;
+struct node *lptr,*rptr;
+};
+typedef struct node* Node;
+Node front=NULL,rear=NULL;
+EMP GetRec()
+{
+EMP temp;
+printf("Enter the SSN: ");
+fflush(stdin);
+gets(temp.SSN);
+printf("Enter the Name:");
+fflush(stdin);
+gets(temp.Name);
+printf("Enter branch:");
+fflush(stdin);
+gets(temp.Branch);
+printf("Enter the designation: ");
+fflush(stdin);
+gets(temp.Des);
+printf("Enter sal:");
+fflush(stdin);
+DATA STRUCTURES LABORATORY BCS
+L305
+Department of Computer Science and Engineering, Sir MVIT Page | 22
+gets(temp.sal);
+printf("Enter the phone number:");
+fflush(stdin);
+gets(temp.phone);
+return temp;
+}
+void DispRec(EMP temp) {
+printf("%s
+\t",temp.SSN);
+printf("%s
+\t",temp.Name);
+printf("%s
+\t",temp.Branch);
+printf("%s
+\t",temp.Des);
+printf("%s
+\t",temp.sal);
+printf("%s
+\n",temp.phone);
+}
+Node Create(EMP ele) {
+Node temp;
+temp=(Node)malloc(sizeof(struct node));
+temp
+->info=ele;
+temp
+->lptr=NULL;
+temp
+->rptr=NULL;
+return temp;
+}
+void Finsert(EMP ele) {
+Node temp=Create(ele);
+if(front== NULL) {
+front=temp;
+rear=temp;
+}
+else {
+temp
+->rptr=front;
+front
+->lptr=temp;
+front = temp;
+}
+}
+void Einsert(EMP ele) {
+Node temp=Create(ele);
+if(rear == NULL) {
+front=temp;
+rear=temp;
+DATA STRUCTURES LABORATORY BCS
+L305
+Department of Computer Science and Engineering, Sir MVIT Page | 23 }
+else {
+rear
+->rptr=temp;
+temp
+->lptr=rear;
+rear=temp;
+}
+}
+void Fdelete() {
+Node temp=front;
+if(front == NULL)
+printf("
+\nList is empty");
+else {
+temp=front;
+printf("
+\nDeleted Employee Records
+\n");
+DispRec(temp
+->info);
+front = front
+->rptr;
+front
+->lptr= NULL;
+if(front == NULL)
+rear = NULL;
+free(temp);
+}
+}
+void Edelete() {
+Node temp=rear,t;
+if(rear== NULL)
+printf("
+\nList is empty");
+else if(rear
+->lptr == NULL)
+{
+printf("
+\nDeleted Employee Records
+\n");
+DispRec(rear
+->info);
+front=rear=NULL;
+free(temp);
+}
+else {
+rear = rear
+->lptr;
+rear
+->rptr=NULL;
+printf("
+\nDeleted Employee Records
+\n");
+DispRec(temp
+->info);
+free(temp);
+}
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 24
+void display(Node front)
+{
+Node temp=front;
+if(temp == NULL)
+printf("\nList is empty\n");
+else
+{
+printf("\nEmployee Records list\n");
+while(temp!=NULL)
+{
+DispRec(temp->info);
+temp=temp->rptr;
+}
+}
+}
+void main()
+{
+EMP ele;
+int flag=1,ch;
+while(flag)
+{
+printf("\n Menu Implementation of Double Ended Queue using DLL\n");
+printf("\n1 Insert Front \n2 Insert rear \n3 Delete Front \n4 Delete Rear \n5 Display\n");
+printf("6 Exit\n Enter the Choice");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1: printf("\n Enter the Employee Record to Insert Front of Queue\n");
+ele = GetRec();
+Finsert(ele);
+break;
+case 2: printf("\n Enter the Employee Record to Insert Front of Queue\n");
+ele=GetRec();
+Einsert(ele);
+break;
+case 3: Fdelete();
+break;
+case 4: Edelete();
+break;
+case 5: display(front);
+break;
+default: flag = 0;
+}
+}
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 25
+9. Develop a Program in C for the following operationson Singly Circular Linked List (SCLL) with header nodes
+a. Represent and Evaluate a Polynomial P(x,y,z) = 6x2y
+2
+z-4yz5+3x3yz+2xy5
+z-2xyz3
+b. Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the result in
+POLYSUM(x,y,z). Support the program with appropriate functions for each of the above operations
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+struct term
+{
+int coeff;
+int pow_x;
+int pow_y;
+int pow_z;
+};
+typedef struct term TERM;
+struct node
+{
+TERM info;
+struct node* next;
+};
+typedef struct node* Node;
+Node Create(TERM t)
+{
+Node temp = (Node)malloc(sizeof(struct node));
+temp->info=t;
+temp->next = temp;
+return temp;
+}
+Node MKHeader()
+{
+TERM x;
+Node temp;
+x.coeff=-1;
+x.pow_x=-1;
+x.pow_y=-1;
+x.pow_z=-1;
+temp=Create(x);
+return temp;
+}
+Node Insert(Node p,TERM t)
+{
+Node temp = Create(t),cur=p;
+while(cur->next!=p)
+cur=cur->next;
+cur->next=temp;
+temp->next=p;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 26
+return p;
+}
+double Compute(Node temp,int x,int y,int z)
+{
+double ret;
+TERM t=temp->info;
+ret=t.coeff * pow(x, t.pow_x) * pow(y, t.pow_y) * pow(z,t.pow_z);
+return ret;
+}
+double Evaluate(Node p, int x, int y, int z)
+{
+Node po = p->next;
+double sum = 0;
+while (po!=p)
+{
+sum += Compute(po,x,y,z);
+po = po->next;
+}
+return sum;
+}
+void DispTerm(TERM t)
+{
+printf(" %dx^%dy^%dz^%d ", t.coeff, t.pow_x, t.pow_y, t.pow_z);
+}
+void PrintPoly(Node p)
+{
+Node po = p->next;
+while (po!=p)
+{
+DispTerm(po->info);
+if(po->next!=p)
+printf("+");
+po = po->next;
+}
+printf("\n");
+}
+void ReadPoly(Node t1,int n)
+{
+TERM t;
+int i;
+for(i=1;i<=n;i++)
+{
+printf("Enter the value of coefficent and powers of x,y and z");
+scanf("%d%d%d%d",&t.coeff,&t.pow_x,&t.pow_y,&t.pow_z);
+t1 = Insert(t1, t);
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 27
+PrintPoly(t1);
+}
+int ComparePower(TERM m,TERM n)
+{
+if(m.pow_x==n.pow_x && m.pow_y==n.pow_y && m.pow_z==n.pow_z)
+return 1;
+else
+return 0;
+}
+TERM AddTerms(TERM m,TERM n)
+{
+TERM temp;
+temp.coeff=m.coeff+n.coeff;
+temp.pow_x = m.pow_x;
+temp.pow_y = m.pow_y;
+temp.pow_z = m.pow_z;
+return temp;
+}
+Node AddPoly(Node p1,Node p2)
+{
+Node Newlist=MKHeader();
+Node t1=p1->next,t3;
+Node t2=p2->next,t4;
+TERM res;
+int i,flag;
+t3=t1;
+t4=t2;
+while(t1!=p1)
+{
+t2=p2->next;
+flag=1;
+while(t2!=p2 && flag)
+{
+if(ComparePower(t1->info,t2->info))
+{
+res=AddTerms(t1->info,t2->info);
+Newlist=Insert(Newlist,res);
+flag=0;
+}
+t2=t2->next;
+}
+if (flag==1)
+Newlist=Insert(Newlist,t1->info);
+t1=t1->next;
+}
+while(t4!=p2)
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 28
+{
+t3=Newlist->next;
+flag=1;
+while(t3!=Newlist && flag)
+{
+if(ComparePower(t3->info,t4->info))
+flag=0;
+t3=t3->next;
+}
+if (flag==1)
+Newlist=Insert(Newlist,t4->info);
+t4=t4->next;
+}
+return Newlist;
+}
+int main()
+{
+int n,x,y,z,ch,i,coeff;
+Node polysum;
+Node poly1 = MKHeader();
+Node poly2 = MKHeader();
+while(1)
+{
+printf("\nMenu\n 1:Evaluate Polynomial \n 2:Add\n 3:Exit\n Enter your choice\n");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1: printf("Enter the terms in the polynomial");
+scanf("%d",&n);
+ReadPoly(poly1,n);
+printf("Enter the values of x,y and z");
+scanf("%d%d%d",&x,&y,&z);
+printf("%.2f\n", Evaluate(poly1, x, y, z));
+break;
+case 2: printf("Enter the terms in the polynomial 2");
+scanf("%d",&n);
+ReadPoly(poly2,n);
+polysum = AddPoly(poly1, poly2);
+PrintPoly(polysum);
+break;
+case 3: exit(0);
+}
+}
+return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 29
+10. Develop a menu driven Program in C for the following operations on Binary Search Tree
+(BST) of Integers .
+a. Create a BST of N Integers: 6, 9, 5, 2, 8, 15, 24, 14, 7, 8, 5, 2
+b. Traverse the BST in Inorder, Preorder and Post Order
+c. Search the BST for a given element (KEY) and report the appropriate message
+d. Exit
+#include<stdio.h>
+struct node
+{
+struct node *left;
+int data;
+struct node *right;
+};
+typedef struct node* Node;
+Node newNode(int item)
+{
+Node temp = (Node)malloc(sizeof(struct node));
+temp->data = item;
+temp->left = temp->right = NULL;
+return temp;
+}
+Node insert(Node node, int key)
+{
+if (node == NULL)
+return newNode(key);
+if (key < node->data)
+node->left = insert(node->left, key);
+else if (key > node->data)
+node->right = insert(node->right, key);
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 30
+return node;
+}
+int search(Node root, int key)
+{
+if (root == NULL)
+return -1;
+if(root->data == key)
+return 1;
+if (root->data < key)
+return search(root->right, key);
+return search(root->left, key);
+}
+void inorder(Node root)
+{
+if (root != NULL)
+{
+inorder(root->left);
+printf("%d \t", root->data);
+inorder(root->right);
+}
+}
+void preorder(Node root)
+{
+if (root != NULL)
+{
+printf("%d \t", root->data);
+preorder(root->left);
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 31
+preorder(root->right);
+}
+}
+void postorder(Node root)
+{
+if (root != NULL)
+{
+postorder(root->left);
+postorder(root->right);
+printf("%d \t", root->data);
+}
+}
+int main()
+{
+int n,i,ch,ch1,key,pos;
+Node root=NULL;
+printf("Enterthe no of nodes in the BST\n");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+printf("Enter the element to be iserted\n");
+scanf("%d",&key);
+root=insert(root,key);
+}
+while(1)
+{
+printf("\nEnter the choice\n1: Insert Node\n2: Traversal\n3: Search for key\n4: Exit\n");
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 32
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:
+printf("Enter the element to be iserted\n");
+scanf("%d",&key);
+root=insert(root,key);
+break;
+case 2:
+printf("Enter your choice\n1: Preorder\n2: Inorder\n3:
+Postorder\n");
+scanf("%d",&ch1);
+switch(ch1)
+{
+case 1:
+preorder(root);
+break;
+case 2:
+inorder(root);
+break;
+case 3:
+postorder(root);
+break;
+default:
+printf("\n Make Correct Choice");
+}
+break;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 33
+case 3:
+printf("Enter the key to be searched\n");
+scanf("%d",&key);
+pos=search(root,key);
+if (pos==-1)
+printf("\n Key is not found\n");
+else
+printf("\n Key is found\n");
+break;
+case 4: exit(0);
+}
+}
+return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 34
+11. Develop a Program in C for the following operations on Graph(G) of Cities
+a. Create a Graph of N cities using Adjacency Matrix.
+b. Print all the nodes reachable from a given starting node in a digraph using DFS/BFS
+method
+#include<stdio.h>
+#include<conio.h>
+int count=0;
+void creategraph(int n,int a[10][10])
+{
+ int i,j;
+ printf("enter the adjacency matrix\n");
+ for(i=1;i<=n;i++)
+ for(j=1;j<=n;j++)
+ scanf("%d",&a[i][j]);
+}
+void bfs(int a[10][10], int n, int source,int s[])
+{
+int f,r,q[10],u,v,i;
+printf("enter the source vertex\n");
+scanf("%d",&source);
+printf("the nodes reachable are\n");
+for(i=1;i<=n;i++)
+s[i]=0;
+f=r=0;
+q[r]=source;
+s[source]=1;
+while(f<=r)
+{
+u=q[f++];
+for(v=1;v<=n;v++)
+{
+if(a[u][v]==1 && s[v]==0)
+{
+printf("\n%d",v);
+s[v]=1;
+q[++r]=v;
+}
+}
+}
+}
+void dfs(int a[10][10],int n,int vis[],int v)
+{
+int i;
+count++;
+vis[v]=count;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 35
+for(i=1;i<=n;i++)
+{
+if(vis[i]==0 && a[v][i]==1)
+dfs(a,n,vis,i);
+}
+}
+int main()
+{
+ int a[20][20],n,source,s[10],i,j,vis[10];
+ int ch;
+
+ while(1)
+ { printf("\nEnter your choice\n1:Create graph\n2:Check Reachability\n3:Check
+Connectivity\n4.Exit\n");
+ scanf("%d",&ch);
+ switch(ch)
+ {
+ case 1: printf("Enter the number of nodes:");
+ scanf("%d",&n);
+ creategraph(n,a);
+ break;
+ case 2: bfs(a,n,source,s);
+ break;
+ case 3:for(i=1;i<=n;i++)
+ vis[i]=0;
+ dfs(a,n,vis,1);
+ if(count==n)
+ printf("the graph is connected\n");
+ else
+ printf("the graph is not connected\n");
+ break;
+ case 4: exit(0);
+ }
+}
+return 0;
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 36
+12. Given a File of N employee records with a set K of Keys (4-digit) which uniquely determine
+the records in file F. Assume that file F is maintained in memory by a Hash Table (HT) of m
+memory locations with L as the set of memory addresses (2-digit) of locations in HT. Let the keys
+in K and addresses in L are Integers. Develop a Program in C that uses Hash function H:
+K →L as H(K)=K mod m (remainder method), and implement hashing
+technique to map a given key K to the address space L. Resolve the collision (if any) using linear
+probing.
+#include<stdio.h>
+#include<stdlib.h>
+#definre max 100
+int create(int num)
+{
+ int key;
+ key=num%100;
+ return key;
+}
+void linear_prob(int a[max],int key,int num)
+{
+ int flag=0,i,count=10;
+ if(a[key]==-1) a[key]=num;
+ else
+ {
+ for(i=10;i<max;i++)
+ {
+ if(a[i]!=-1) count++;
+ }
+ if(count==max)
+ {
+ printf(“\n hash table is full\n”);
+ display(a);
+ exit(1);
+ }
+ for(i=key+1;i<max;i++)
+ if(a[i]==-1)
+ {
+ a[i]=num;
+ flag=1;break;
+ }
+ for(i=10;i<key&&flag==0;i++)
+ if(a[i]==-1)
+ {
+ a[i]=num;
+ flag=1;break;
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 37
+ }
+ }
+}
+void display(int a[max])
+{
+ int i;
+ printf(“\n the hash table is…\n”);
+ printf(“key/index\t employee id\n”);
+ printf(“………………………………………..\n”);
+ for(i=10;i<max;i++)
+ printf(“\n %d %d\n”, i, a[i]);
+}
+int main()
+{
+ int a[max],num,key,i;
+ int ans;
+ printf(“collision handling by linear probing\n”);
+ for(i=10;i<max;i++) a[i]=-1;
+ do
+ {
+ printf(“\n enter the four digit number:”);
+ scanf(“%d”,&num);
+ key=create(num);
+ linear_pron(a,keyt,num);
+ printf(“do you want to continue?\n”);
+ scanf(“%d”,&ans);
+ }while(ans==1);
+ display(a);
+}
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 38
+VIVA-VOICE QUESTIONS
+1. What is a pointer on pointer?
+It’s a pointer variable which can hold the address of another pointer variable. It de-refers twice to point to
+the data held by the designated pointer variable.
+Eg:int x =5,*p=&x,**q=&p;
+Therefore ‘x’ can be accessed by **q.
+2. Distinguish between malloc() & calloc() memory allocation.
+Both allocates memory from heap area/dynamic memory. By default calloc fills the allocated What is a
+constant pointer?
+A pointer which is not allowed to be altered to hold another address after it is holding one.
+3. What is a static variable?
+A static local variables retains its value between the function call and the default value is 0. The following
+function will print 1 2 3 if called thrice.
+4. What is a NULL pointer?
+A pointer pointing to nothing is called so. Eg: char *p=NULL;
+What is the purpose of extern storage specifier?
+Used to resolve the scope of global symbol.
+Eg:
+main(){
+externint i;
+Printf(“%d”,i);
+}
+int i =20;
+5. Explain the purpose of the function sprintf().
+Prints the formatted output onto the character array.
+6. What is the meaning of base address of the array?
+The starting address of the array is called as the base address of the array.
+7. When should we use the register storage specifier?
+If a variable is used most frequently then it should be declared using register storage specifier, then
+possibly the compiler gives CPU register for its storage to speed up the look up of the variable.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 39
+8. What is a dangling pointer?
+A pointer initially holding valid address, but later the held address is released or freed. Then such a pointer
+is called as dangling pointer.
+9. What is the purpose of the keyword typedef?
+It is used to alias the existing type. Also used to simplify the complex declaration of the type.
+10. What is the difference between actual and formal parameters?
+The parameters sent to the function at calling end are called as actual parameters while at the receiving of
+the function definition called as formal parameters.
+11. Can a program be compiled without main() function?
+Yes, it can be but cannot be executed, as the execution requires main() function definition.
+12. What is the advantage of declaring void pointers?
+When we do not know what type of the memory address the pointer variable is going to hold, then we
+declare a void pointer for such.
+13. Where an automatic variable is stored?
+Every local variable by default being an auto variable is stored in stack memory.
+14. What is a nested structure?
+A structure containing an element of another structure as its member is referred so.
+15. What is the difference between variable declaration and variable definition?
+Declaration associates type to the variable whereas definition gives the value to the variable.
+16. What is a self-referential structure?
+A structure containing the same structure pointer variable as its element is called as self-referential
+structure.
+17. Does a built-in header file contain built-in function definition?
+No, the header file only declares function. The definition is in library which is linked by the linker.
+18. Explain modular programming.
+Dividing the program in to sub programs (modules/function) to achieve the given task is modular
+approach. More generic functions definition gives the ability to re-use the functions, such as built-in
+library functions.
+19. What is a token?
+A C program consists of various tokens and a token is either a keyword, an identifier, a constant, a string
+literal, or a symbol.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 40
+20. What is a constant pointer?
+A pointer which is not allowed to be altered to hold another address after it is holding one.
+21. Describe stack operation.
+Stack is a data structure that follows Last in First out strategy.
+StackOperations:-
+Push – Pushes (inserts) the element in the stack. The location is specified by the pointer.
+Pop – Pulls (removes) the element out of the stack. The location is specified by the pointer
+Swap: – the two top most elements of the stack can be swapped
+Peek: – Returns the top element on the stack but does not remove it from the stack
+Rotate:- the topmost (n) items can be moved on the stack in a rotating fashion
+A stack has a fixed location in the memory. When a data element is pushed in the stack, the pointer points
+to the current element.
+22. Discuss how to implement queue using stack.
+A queue canbe implemented by using 2 stacks:-
+1. An element is inserted in the queue by pushing it into stack1
+2. An element is extracted from the queue by popping it from the stack2
+3. If the stack 2 is empty then all elements currently in stack 1 are transferred to stack 2 but in
+thereverseorder
+4. If the stack 2 is not empty just pop the value from stack 2.
+23. What is data structure?
+Data structures refers to the way data is organized and manipulated. It seeks to find ways to make data
+access more efficient. When dealing with data structure, we not only focus on one piece of data, but rather
+different set of data and how they can relate to one another in an organized manner.
+24. What is a queue?
+A queue is a data structures that can simulates a list or stream of data. In this structure, new elements are
+inserted at one end and existing elements are removed from the other end.
+25. What are binary trees?
+A binary tree is one type of data structure that has two nodes, a left node and a right node. In programming,
+binary trees are actually an extension of the linked list structures.
+26. Which data structures is applied when dealing with a recursive function?
+Recursion, which is basically a function that calls itself based on a terminating condition, makes use of
+the stack. Using LIFO, a call to a recursive function saves the return address so that it knows how to return
+to the calling function after the call terminates.
+27. What is a stack?
+A stack is a data structure in which only the top element can be accessed. As data is stored in the stack,
+each data is pushed downward, leaving the most recently added data on top.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 41
+28. Explain Binary Search Tree
+A binary search tree stores data in such a way that they can be retrieved very efficiently. The left subtree
+contains nodes whose keys are less than the node’s key value, while the right subtree contains nodes whose
+keys are greater than or equal to the node’s key value. Moreover, both subtrees are also binary search
+trees.
+29. What are doubly linked lists?
+Doubly linked lists are a special type of linked list wherein traversal across the data elements can be done
+in both directions. This is made possible by having two links in every node, one that links to the next node
+and other one that links to the previous node.
+30. What is Huffman’s algorithm?
+Huffman’s algorithm is associated in creating extended binary trees that has minimum weighted path
+lengths from the given weights. It makes use of a table that contains frequency of occurrence for each data
+element.
+31. What is Fibonacci search?
+Fibonacci search is a search algorithm that applies to a sorted array. It makes use of a divide-and-conquer
+approach that can greatly reduce the time needed in order to reach the target element.
+32. Briefly explain recursive algorithm.
+Recursive algorithm targets a problem by dividing it into smaller, manageable sub-problems. The output
+of one recursion after processing one sub-problem becomes the input to the next recursive process.
+33. What is the minimum number of queues needed to implement the priority queue?Two. One
+queue is used for the actual storing of data, and the other one is used for storing the priorities.
+34. Which data structure is used to perform recursion?
+The answer is Stack. Stack has the LIFO (Last In First Out) property; it remembers it’s ‘caller’.
+Therefore, it knows to whom it should return when the function has to return. On the other hand,
+recursion makes use of the system stack for storing the return addresses of the function calls. Every
+recursive function has its equivalent iterative (non-recursive) function. Even when such equivalent
+iterative procedures are written explicit, stack is to be used.
+35. What are some of the applications for the tree data structure?
+1-Manipulation of the arithmetic expressions.
+2-Symbol table construction.
+3- Syntax analysis.
+34. How does dynamic memory allocation help in managing data?
+Aside from being able to store simple structured data types, dynamic memory allocation can combine
+separately allocated structured blocks to form composite structures that expand and contract as needed.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 42
+37. What is FIFO?
+FIFO is short for First-in, First-out, and is used to represent how data is accessed in a queue. Data has
+been inserted into the queue list the longest is the one that is removed first.
+38. What is an ordered list?
+An ordered list is a list in which each node’s position in the list is determined by the value of its key
+component, so that the key values form an increasing sequence, as the list is traversed.
+39. What is merge sort?
+Merge sort takes a divide-and-conquer approach to sorting data. In a sequence of data, adjacent ones are
+merged and sorted to create bigger sorted lists. These sorted lists are then merged again to form an even
+bigger sorted list, which continuous until you have one single sorted list.
+40. What is the difference between a PUSH and a POP?
+Pushing and popping applies to the way data is stored and retrieved in a stack. A push denotes data being
+added to it, meaning data is being “pushed” into the stack. On the other hand, a pop denotes data retrieval,
+and in particular refers to the topmost data being accessed.
+41. What is a linear search?
+A linear search refers to the way a target key is being searched in a sequential data structure. Using this
+method, each element in the list is checked and compared against the target key, and is repeated until
+found or if the end of the list has been reached.
+42. How does variable declaration affect memory allocation?
+The amount of memory to be allocated or reserved would depend on the data type of the variable being
+declared. For example, if a variable is declared to be of integer type, then 32 bits of memory storage will
+be reserved for that variable.
+43. What is the advantage of the heap over a stack?
+Basically, the heap is more flexible than the stack. That’s because memory space for the heap can be
+dynamically allocated and de-allocated as needed. However, memory of the heap can at times be slower
+when compared to that stack.
+44. What is a postfix expression?
+A postfix expression is an expression in which each operator follows its operands. The advantage of this
+form is that there is no need to group sub-expressions in parentheses or to consider operator precedence.
+45. What is data structure?
+Data structures refers to the way data is organized and manipulated. It seeks to find ways to make data
+access more efficient. When dealing with data structure, we not only focus on one piece of data, but rather
+different set of data and how they can relate to one another in an organized manner.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 43
+46. Differentiate file structure from storage structure.
+Basically, the key difference is the memory area that is being accessed. When dealing with the structure
+that resides the main memory of the computer system, this is referred to as storage structure. When dealing
+with an auxiliary structure, we refer to it as file structures.w they can relate to one another in an organized
+manner.
+47. What is a linked list?
+A linked list is a sequence of nodes in which each node is connected to the node following it. This forms
+a chain-like link of data storage.
+48. How do you reference all the elements in a one-dimension array?
+To do this, an indexed loop is used, such that the counter runs from 0 to the array size minus one. In this
+manner, we are able to reference all the elements in sequence by using the loop counter as the array
+subscript.
+49. In what areas do data structures applied?
+Data structures is important in almost every aspect where data is involved. In general, algorithms that
+involve efficient data structure is applied in the following areas: numerical analysis, operating system,
+A.I., compiler design, database management, graphics, and statistical analysis, to name a few.
+50. What is LIFO?
+LIFO is short for Last In First Out, and refers to how data is accessed, stored and retrieved. Using this
+scheme, data that was stored last , should be the one to be extracted first. This also means that in order to
+gain access to the first data, all the other data that was stored before this first data must first be retrieved
+and extracted.
+51. What is a queue?
+A queue is a data structures that can simulates a list or stream of data. In this structure, new elements are
+inserted at one end and existing elements are removed from the other end.
+52. What are binary trees?
+A binary tree is one type of data structure that has two nodes, a left node and a right node. In programming,
+binary trees are actually an extension of the linked list structures.
+53. Which data structures is applied when dealing with a recursive function?
+Recursion, which is basically a function that calls itself based on a terminating condition, makes use of
+the stack. Using LIFO, a call to a recursive function saves the return address so that it knows how to return
+to the calling function after the call terminates.
+54. What is a stack?
+A stack is a data structure in which only the top element can be accessed. As data is stored in the stack,
+each data is pushed downward, leaving the most recently added data on top.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 44
+55. What are multidimensional arrays?
+Multidimensional arrays make use of multiple indexes to store data. It is useful when storing data that
+cannot be represented using a single dimensional indexing, such as data representation in a board game,
+tables with data stored in more than one column.
+56. Are linked lists considered linear or non-linear data structures?
+It actually depends on where you intend to apply linked lists. If you based it on storage, a linked list is
+considered non-linear. On the other hand, if you based it on access strategies, then a linked list is
+considered linear.
+57. How does dynamic memory allocation help in managing data?
+Aside from being able to store simple structured data types, dynamic memory allocation can combine
+separately allocated structured blocks to form composite structures that expand and contract as needed.
+58. What is FIFO?
+FIFO is short for First-in, First-out, and is used to represent how data is accessed in a queue. Data has
+been inserted into the queue list the longest is the one that is removed first.
+59. What is the primary advantage of a linked list?
+A linked list is a very ideal data structure because it can be modified easily. This means that modifying a
+linked list works regardless of how many elements are in the list.
+60. What is the difference between a PUSH and a POP?
+Pushing and popping applies to the way data is stored and retrieved in a stack. A push denotes data being
+added to it, meaning data is being “pushed” into the stack. On the other hand, a pop denotes data retrieval,
+and in particular refers to the topmost data being accessed.
+61. What is a linear search?
+A linear search refers to the way a target key is being searched in a sequential data structure. Using this
+method, each element in the list is checked and compared against the target key, and is repeated until
+found or if the end of the list has been reached.
+62. How does variable declaration affect memory allocation?
+The amount of memory to be allocated or reserved would depend on the data type of the variable being
+declared. For example, if a variable is declared to be of integer type, then 32 bits of memory storage will
+be reserved for that variable.
+63. What is the advantage of the heap over a stack?
+Basically, the heap is more flexible than the stack. That’s because memory space for the heap can be
+dynamically allocated and de-allocated as needed. However, memory of the heap can at times be slower
+when compared to that stack.
+DATA STRUCTURES LABORATORY BCSL305
+Department of Computer Science and Engineering, Sir MVIT Page | 45
+64. What is a postfix expression?
+A postfix expression is an expression in which each operator follows its operands. The advantage of this
+form is that there is no need to group sub-expressions in parentheses or to consider operator precedence.
+65. What are dynamic data structures?
+Dynamic data structures are structures that expand and contract as a program runs. It provides a flexible
+means of manipulating data because it can adjust according to the size of the data.
+66. In what data structures are pointers applied?
+Pointers that are used in linked list have various applications in data structure. Data structures that make
+use of this concept include the Stack, Queue, Linked List and Binary Tree.
+67. What are ARRAYs?
+When dealing with arrays, data is stored and retrieved using an index that actually refers to the element
+number in the data sequence. This means that data can be accessed in any order. In programming, an array
+is declared as a variable having a number of indexed elements.
+68. Differentiate STACK from ARRAY.
+Data that is stored in a stack follows a LIFO pattern. This means that data access follows a sequence
+wherein the last data to be stored will the first one to be extracted. Arrays, on the other hand, does not
+follow a particular order and instead can be accessed by referring to the indexed element within the array.
+69. Differentiate linear from non linear data structure.
+Linear data structure is a structure wherein data elements are adjacent to each other. Examples of linear
+data structure include arrays, linked lists, stacks and queues. On the other hand, non-linear data structure
+is a structure wherein each data element can connect to more than two adjacent data elements. Examples
+of non linear data structure include trees and graphs.
